@@ -62,7 +62,7 @@ public class Main_Class_for_TextClassification extends JFrame_Windows {
     /**
      * Поле массива с названием тематических словарей на английском
      */
-    public static final String[] array_of_topics = new String[]{"medical_topics", "historical_topics", " network_topics", "cryptography_topics", "finance_topics", "programming_topics"};
+    public static final String[] array_of_topics = new String[]{"medical_topics", "historical_topics", "network_topics", "cryptography_topics", "finance_topics", "programming_topics"};
     /**
      * Поле массива с названием тематических словарей на русском
      */
@@ -183,7 +183,6 @@ public class Main_Class_for_TextClassification extends JFrame_Windows {
                         break;
                     }
                 }
-
                 if (Array_for_Statistic.get(index_for_topic) != 0.0) {
                     JFrame frame = new JFrame("Гистограмма для темы: " + array_of_topics_russian[index_for_topic]);
                     HistogramVisualization histogram = new HistogramVisualization(dictionary_for_statistic.get(Choose_topic), frame.getHeight());
