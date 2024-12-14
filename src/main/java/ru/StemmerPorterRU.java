@@ -67,7 +67,7 @@ public class StemmerPorterRU {
             if (temp.equals(rv)) {
                 rv = SUPERLATIVE.matcher(rv).replaceFirst("");
                 rv = NN.matcher(rv).replaceFirst("н");
-            }else{
+            } else {
                 rv = temp;
             }
             word = pre + rv;

@@ -79,7 +79,8 @@ public class JFrame_Windows extends JFrame {
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
     }
 
-    public void initListeners() {}
+    public void initListeners() {
+    }
 
 
     public static void main(String[] args) {
