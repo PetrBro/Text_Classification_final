@@ -1,7 +1,18 @@
 package ru;
 
+import TextClassification.FindWords;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+/**
+ * Класс приложения для стемминга текста
+ *
+ * @author Котелин Пётр "petya.kotelin@mail.ru"
+ * @version 1.0
+ * @see FindWords
+ */
+
 
 public class StemmerPorterRU {
     private static final Pattern PERFECTIVEGROUND = Pattern.compile("((ив|ивши|ившись|ыв|ывши|ывшись)|((?<=[ая])(в|вши|вшись)))$");
